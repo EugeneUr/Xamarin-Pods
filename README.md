@@ -8,4 +8,4 @@ Updates:
  - Fixes an issue with AccessoryView not moving with the row.
 
 ## APNumberPad
-- Original project, props, and license belong to https://github.com/CEWendel/SWTableViewCell
+- Original project, props, and license belong to https://github.com/podkovyrin/APNumberPad
