@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C2BD5631D58443B007950BE /* APNumberPad.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7C2BD5621D58443B007950BE /* APNumberPad.h */; };
+		7C2BD5651D58443B007950BE /* APNumberPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2BD5641D58443B007950BE /* APNumberPad.m */; };
+		7C2BD5701D584489007950BE /* APNumberButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2BD56C1D584489007950BE /* APNumberButton.m */; };
+		7C2BD5711D584489007950BE /* APNumberPadDefaultStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2BD56E1D584489007950BE /* APNumberPadDefaultStyle.m */; };
+		7C2BD5731D584505007950BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C2BD5721D584505007950BE /* Foundation.framework */; };
+		7C2BD5751D584513007950BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C2BD5741D584513007950BE /* CoreGraphics.framework */; };
+		7C2BD5771D584519007950BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C2BD5761D584519007950BE /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7C2BD55D1D58443A007950BE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7C2BD5631D58443B007950BE /* APNumberPad.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7C2BD55F1D58443A007950BE /* libAPNumberPad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAPNumberPad.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C2BD5621D58443B007950BE /* APNumberPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APNumberPad.h; sourceTree = "<group>"; };
+		7C2BD5641D58443B007950BE /* APNumberPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APNumberPad.m; sourceTree = "<group>"; };
+		7C2BD56B1D584489007950BE /* APNumberButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNumberButton.h; sourceTree = "<group>"; };
+		7C2BD56C1D584489007950BE /* APNumberButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNumberButton.m; sourceTree = "<group>"; };
+		7C2BD56D1D584489007950BE /* APNumberPadDefaultStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNumberPadDefaultStyle.h; sourceTree = "<group>"; };
+		7C2BD56E1D584489007950BE /* APNumberPadDefaultStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNumberPadDefaultStyle.m; sourceTree = "<group>"; };
+		7C2BD56F1D584489007950BE /* APNumberPadStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNumberPadStyle.h; sourceTree = "<group>"; };
+		7C2BD5721D584505007950BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7C2BD5741D584513007950BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7C2BD5761D584519007950BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7C2BD57B1D584EB4007950BE /* apnumberpad_backspace_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apnumberpad_backspace_icon.png; sourceTree = "<group>"; };
+		7C2BD57C1D584EB4007950BE /* apnumberpad_backspace_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apnumberpad_backspace_icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C2BD55C1D58443A007950BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C2BD5771D584519007950BE /* UIKit.framework in Frameworks */,
+				7C2BD5751D584513007950BE /* CoreGraphics.framework in Frameworks */,
+				7C2BD5731D584505007950BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C2BD5561D58443A007950BE = {
+			isa = PBXGroup;
+			children = (
+				7C2BD5611D58443B007950BE /* APNumberPad */,
+				7C2BD5781D58451F007950BE /* Frameworks */,
+				7C2BD5601D58443A007950BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C2BD5601D58443A007950BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C2BD55F1D58443A007950BE /* libAPNumberPad.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C2BD5611D58443B007950BE /* APNumberPad */ = {
+			isa = PBXGroup;
+			children = (
+				7C2BD57A1D584E94007950BE /* SupportingFiles */,
+				7C2BD56B1D584489007950BE /* APNumberButton.h */,
+				7C2BD56C1D584489007950BE /* APNumberButton.m */,
+				7C2BD56D1D584489007950BE /* APNumberPadDefaultStyle.h */,
+				7C2BD56E1D584489007950BE /* APNumberPadDefaultStyle.m */,
+				7C2BD56F1D584489007950BE /* APNumberPadStyle.h */,
+				7C2BD5621D58443B007950BE /* APNumberPad.h */,
+				7C2BD5641D58443B007950BE /* APNumberPad.m */,
+			);
+			path = APNumberPad;
+			sourceTree = "<group>";
+		};
+		7C2BD5781D58451F007950BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C2BD5761D584519007950BE /* UIKit.framework */,
+				7C2BD5741D584513007950BE /* CoreGraphics.framework */,
+				7C2BD5721D584505007950BE /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C2BD57A1D584E94007950BE /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7C2BD57B1D584EB4007950BE /* apnumberpad_backspace_icon.png */,
+				7C2BD57C1D584EB4007950BE /* apnumberpad_backspace_icon@2x.png */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C2BD55E1D58443A007950BE /* APNumberPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C2BD5681D58443B007950BE /* Build configuration list for PBXNativeTarget "APNumberPad" */;
+			buildPhases = (
+				7C2BD55B1D58443A007950BE /* Sources */,
+				7C2BD55C1D58443A007950BE /* Frameworks */,
+				7C2BD55D1D58443A007950BE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APNumberPad;
+			productName = APNumberPad;
+			productReference = 7C2BD55F1D58443A007950BE /* libAPNumberPad.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C2BD5571D58443A007950BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Evgeny Uralsky";
+				TargetAttributes = {
+					7C2BD55E1D58443A007950BE = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 7C2BD55A1D58443A007950BE /* Build configuration list for PBXProject "APNumberPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7C2BD5561D58443A007950BE;
+			productRefGroup = 7C2BD5601D58443A007950BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C2BD55E1D58443A007950BE /* APNumberPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C2BD55B1D58443A007950BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C2BD5651D58443B007950BE /* APNumberPad.m in Sources */,
+				7C2BD5701D584489007950BE /* APNumberButton.m in Sources */,
+				7C2BD5711D584489007950BE /* APNumberPadDefaultStyle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7C2BD5661D58443B007950BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7C2BD5671D58443B007950BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C2BD5691D58443B007950BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7C2BD56A1D58443B007950BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C2BD55A1D58443A007950BE /* Build configuration list for PBXProject "APNumberPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C2BD5661D58443B007950BE /* Debug */,
+				7C2BD5671D58443B007950BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C2BD5681D58443B007950BE /* Build configuration list for PBXNativeTarget "APNumberPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C2BD5691D58443B007950BE /* Debug */,
+				7C2BD56A1D58443B007950BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C2BD5571D58443A007950BE /* Project object */;
+}

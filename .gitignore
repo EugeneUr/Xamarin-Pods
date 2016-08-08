@@ -6,11 +6,6 @@
 build/
 DerivedData/
 
-## Xamarin/C#
-bin/
-obj/
-*.userprefs
-
 ## Various settings
 *.pbxuser
 !default.pbxuser

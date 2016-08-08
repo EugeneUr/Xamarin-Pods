@@ -78,8 +78,8 @@
 		7CBE2FFB1D4850F200B69B08 = {
 			isa = PBXGroup;
 			children = (
-				7C2BD5551D583697007950BE /* Frameworks */,
 				7CBE30061D4850F200B69B08 /* SWTableViewCell */,
+				7C2BD5551D583697007950BE /* Frameworks */,
 				7CBE30051D4850F200B69B08 /* Products */,
 			);
 			sourceTree = "<group>";
