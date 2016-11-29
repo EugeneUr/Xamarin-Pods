@@ -9,3 +9,6 @@ Updates:
 
 ## APNumberPad
 - Original project, props, and license belong to https://github.com/podkovyrin/APNumberPad
+
+## JTCalendar
+- Original project, props, and license belong to https://github.com/jonathantribouharet/JTCalendar (v2.1.9)
