@@ -9,4 +9,5 @@
 
 "sharpie bind -output . -namespace SWTableViewCells -sdk iphoneos9.0 ./SWTableViewCell/SWTableViewCell.h"
 
-3. Refresh the newly generated .a file with the current one inside the Xamarin folder  
+3. Refresh the newly generated .a file with the current one inside the Xamarin folder
+4. Recompile your Xamarin project
