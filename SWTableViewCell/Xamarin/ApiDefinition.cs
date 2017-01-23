@@ -43,16 +43,6 @@ namespace SWTableViewCells
 		void AddUtilityButton(UIColor color, UIImage normalIcon, UIImage selectedIcon);
 	}
 
-	[Category]
-	[BaseType(typeof(NSArray))]
-	interface SWUtilityButtonsForNSArray
-	{
-		// @required - (BOOL)sw_isEqualToButtons:(NSArray *)buttons;
-		[Export("sw_isEqualToButtons:")]
-		bool IsEqualToButtons(UIButton[] buttons);
-	}
-
-
 	//  SWCellScrollView.h
 
 	[BaseType(typeof(UIScrollView), Name = "SWCellScrollView")]

@@ -241,7 +241,7 @@ static NSString * const kTableViewPanState = @"state";
 
 - (void)setLeftUtilityButtons:(NSArray *)leftUtilityButtons
 {
-    if (![_leftUtilityButtons sw_isEqualToButtons:leftUtilityButtons]) {
+    if (![self areCurrentButtons:_leftUtilityButtons equalTo:leftUtilityButtons]) {
         _leftUtilityButtons = leftUtilityButtons;
         
         self.leftUtilityButtonsView.utilityButtons = leftUtilityButtons;
@@ -263,7 +263,7 @@ static NSString * const kTableViewPanState = @"state";
 
 - (void)setRightUtilityButtons:(NSArray *)rightUtilityButtons
 {
-    if (![_rightUtilityButtons sw_isEqualToButtons:rightUtilityButtons]) {
+    if (![self areCurrentButtons:_rightUtilityButtons equalTo:rightUtilityButtons]) {
         _rightUtilityButtons = rightUtilityButtons;
         
         self.rightUtilityButtonsView.utilityButtons = rightUtilityButtons;
@@ -281,6 +281,43 @@ static NSString * const kTableViewPanState = @"state";
 
     [self.rightUtilityButtonsView layoutIfNeeded];
     [self layoutIfNeeded];
+}
+
+- (BOOL)areCurrentButtons:(NSArray *)currentButtons equalTo:(NSArray *)newButtons {
+    if (!newButtons || currentButtons.count != newButtons.count){
+        return NO;
+    }
+    
+    for (NSUInteger idx = 0; idx < currentButtons.count; idx++) {
+        id buttonA = currentButtons[idx];
+        id buttonB = newButtons[idx];
+        if (![buttonA isKindOfClass:[UIButton class]] || ![buttonB isKindOfClass:[UIButton class]]) return NO;
+        if (![self isButton:buttonA equalTo:buttonB]) return NO;
+    }
+    
+    return YES;
+}
+
+- (BOOL)isButton:(UIButton *)currentButton equalTo:(UIButton *)newButton {
+    if (!currentButton || !newButton) return NO;
+    
+    UIColor *backgroundColorA = currentButton.backgroundColor;
+    UIColor *backgroundColorB = newButton.backgroundColor;
+    BOOL haveEqualBackgroundColors = (!backgroundColorA && !backgroundColorB) || [backgroundColorA isEqual:backgroundColorB];
+    
+    NSString *titleA = [currentButton titleForState:UIControlStateNormal];
+    NSString *titleB = [newButton titleForState:UIControlStateNormal];
+    BOOL haveEqualTitles = (!titleA && !titleB) || [titleA isEqualToString:titleB];
+    
+    UIImage *normalIconA = [currentButton imageForState:UIControlStateNormal];
+    UIImage *normalIconB = [newButton imageForState:UIControlStateNormal];
+    BOOL haveEqualNormalIcons = (!normalIconA && !normalIconB) || [normalIconA isEqual:normalIconB];
+    
+    UIImage *selectedIconA = [currentButton imageForState:UIControlStateSelected];
+    UIImage *selectedIconB = [newButton imageForState:UIControlStateSelected];
+    BOOL haveEqualSelectedIcons = (!selectedIconA && !selectedIconB) || [selectedIconA isEqual:selectedIconB];
+    
+    return haveEqualBackgroundColors && haveEqualTitles && haveEqualNormalIcons && haveEqualSelectedIcons;
 }
 
 #pragma mark - UITableViewCell overrides

@@ -17,10 +17,3 @@
 - (void)sw_addUtilityButtonWithColor:(UIColor *)color normalIcon:(UIImage *)normalIcon selectedIcon:(UIImage *)selectedIcon;
 
 @end
-
-
-@interface NSArray (SWUtilityButtons)
-
-- (BOOL)sw_isEqualToButtons:(NSArray *)buttons;
-
-@end

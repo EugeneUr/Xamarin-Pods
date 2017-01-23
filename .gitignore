@@ -8,6 +8,9 @@ DerivedData/
 bin/
 obj/
 
+## Ignore all the libraries inside the iOS folders as they can be rebuilt
+*/iOS/*.a
+
 ## Various settings
 *.pbxuser
 !default.pbxuser
