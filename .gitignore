@@ -10,6 +10,7 @@ obj/
 
 ## Ignore all the libraries inside the iOS folders as they can be rebuilt
 */iOS/*.a
+Pods/
 
 ## Various settings
 *.pbxuser
