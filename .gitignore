@@ -7,6 +7,8 @@ build/
 DerivedData/
 bin/
 obj/
+.vs/
+*.userprefs
 
 ## Ignore all the libraries inside the iOS folders as they can be rebuilt
 */iOS/*.a
